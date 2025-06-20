@@ -1,0 +1,5 @@
+/* styles/animations.css */
+@keyframes slideInRight { /* ...省略... */ }
+@keyframes fadeIn { /* ...省略... */ }
+@keyframes fadeInUp { /* ...省略... */ }
+/* …他のアニメーション定義… */
