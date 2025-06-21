@@ -1,15 +1,10 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./pages/**/*.{js,jsx}",
-    "./components/**/*.{js,jsx}"
+  "content": [
+    "./src/**/*.{js,jsx,ts,tsx}"
   ],
-  theme: {
-    extend: {
-      fontFamily: {
-        serif: ["'Noto Serif JP'", "serif"],
-      },
-    },
-  },
-  plugins: [],
-};
+  "theme": {
+    "extend": {},
+    "plugins": []
+  }
+}
