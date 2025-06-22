@@ -173,17 +173,28 @@ function MainComponent() {
               {
                 title: "TELEVISION",
                 items: [
-                  { name: "青春探偵ハルヤサマーズ", year: "2022.5" },
-                  { name: "異世界でスローライフ", year: "2022.7" },
-                  { name: "平穏世代の韋駄天達", year: "2022.9" },
+                  { name: "アビラコート 渋谷センター街ビジョン他7箇所", year: "2022.12" },
+                  { name: "森永製菓 板チョコアイス「板チョコ裁判」篇 (裁判員役）", year: "2022.09" },
+                  { name: "TX「警視庁強行犯係 樋口顕」8話 (野球部先輩役)", year: "2022.9" },
+                  
                 ],
               },
               {
                 title: "FILM",
                 items: [
-                  { name: "なにこ", year: "2023.03" },
-                  { name: "長島物語", year: "2023.03" },
-                  { name: "青春探偵ハルヤサマーズ", year: "2022.03" },
+                  { name: "「silent love」(佐伯役)", year: "2024.01" },
+                  { name: "「なのに、千輝くんが甘すぎる。」(陸上部員役", year: "2023.03" },
+                  { name: "自主制作映画「Z の世界」 (主演 こう役)", year: "2023.03" },
+                                    { name: "「暴太郎戦隊ドンブラザーズ」劇場版(生徒役)", year: "2022.03" },
+                ],
+              },
+              {
+                title: "OTHER",
+                items: [
+                  { name: "スギ薬局スタイリングモデル（スギ薬局×中野製薬共同開発 PROMONY新作発表会）", year: "2025.5" },
+                  { name: "再構築 Paris A/W collection Lorena Cordero A/W collection（Paris Colllection）", year: "2025.3" },
+                  { name: "Motor Bike Expo 2024 in Verona Italy 再構築モデル", year: "2024.1" },
+                  { name: "ムル男コンテスト ファイナリスト 準グランプリ", year: "2023.8" },
                 ],
               },
             ].map((category, idx) => (
