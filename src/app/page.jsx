@@ -101,17 +101,17 @@ function MainComponent() {
         <div className="hero-section absolute inset-0">
           <img
             src="https://ucarecdn.com/ed740b69-329b-4023-a5aa-3c0413eb4481/-/format/auto/"
-            alt="Ren Erick Okimoto"
+            alt="沖本　蓮　エリック"
             className="w-full h-full object-contain object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black"></div>
         </div>
         <div className="hero-content relative z-10 text-center transform transition-all duration-1000 mt-32">
-          <h2 className="text-4xl md:text-6xl font-medium slide-in-right">
-            BREAKING BOUNDARIES
+          <h2 className="text-2xl md:text-7xl font-medium slide-in-right">
+            沖本　蓮　エリック
           </h2>
-          <h3 className="text-2xl md:text-4xl mt-4 opacity-0 animate-fade-in font-light">
-            CREATING STORIES
+          <h3 className="text-2xl md:text-2xl mt-4 opacity-0 animate-fade-in font-light">
+            Relentless pursuit of excellence
           </h3>
         </div>
       </section>
@@ -133,8 +133,8 @@ function MainComponent() {
               <h2 className="text-3xl font-bold slide-in-right">PROFILE</h2>
               <div className="space-y-4">
                 {[
-                  { label: "Name", value: "Ren Erick Okimoto" },
-                  { label: "Height", value: "178cm" },
+                  { label: "Name", value: "沖本　蓮　エリック" },
+                  { label: "Height", value: "180cm" },
                 ].map((item, index) => (
                   <div
                     key={index}
